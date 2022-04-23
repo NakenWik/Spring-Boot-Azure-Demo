@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'IT-SDM-Spring-Boot-Azure-Demo'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B2DD3C9E0ECC4BAD9F2B4BB9F4033113 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_69E6E66869364A7E8852755CBF7FCCBE }}
           package: '*.war'
