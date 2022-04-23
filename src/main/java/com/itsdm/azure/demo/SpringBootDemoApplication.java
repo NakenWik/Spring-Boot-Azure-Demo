@@ -11,6 +11,7 @@ public class SpringBootDemoApplication {
 	
 	@GetMapping("/message")
 	public String message() {
+		System.out.println("Hi..");
 		return "Hello World..";
 	}
 
