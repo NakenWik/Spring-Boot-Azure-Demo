@@ -8,7 +8,12 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 public class SpringBootDemoApplication {
-	
+
+	@GetMapping("/")
+	public String WelcomePage() {
+		System.out.println("Hi..");
+		return "Hello WellcomePage..";
+	}
 	@GetMapping("/message")
 	public String message() {
 		System.out.println("Hi..");
