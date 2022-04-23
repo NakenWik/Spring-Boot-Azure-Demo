@@ -15,7 +15,6 @@ public class SpringBootDemoApplication {
 		return "Hello World..";
 	}
 	
-
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootDemoApplication.class, args);
 	}
