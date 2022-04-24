@@ -52,15 +52,15 @@
         <groupId>com.microsoft.azure</groupId>  
         <artifactId>azure-webapp-maven-plugin</artifactId>  
         <version>1.7.0</version>  
-        <configuration>
+        <!-- <configuration>
           <schemaVersion>V2</schemaVersion>
           <resourceGroup>Spring-Boot-Azure-Demo-1650771042173-rg</resourceGroup>
           <appName>Spring-Boot-Azure-Demo-1650771042173</appName>
           <pricingTier>P1v2</pricingTier>
           <region>westeurope</region>
           <appSettings>
-          <property><!--  -->
-          	<name><!--  -->JAVA_OPTS</name>
+          <property>
+          	<name>JAVA_OPTS</name>
           	<value>-Dserver.port=80</value>
           </property>
           </appSettings>
@@ -79,7 +79,7 @@
               </resource>
             </resources>
           </deployment>
-        </configuration>
+        </configuration> -->
       </plugin> 
     </plugins> 
   </build> 
